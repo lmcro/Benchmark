@@ -109,7 +109,7 @@ function require_download() {
 }
 
 require_download FIO fio-$FIO_DIR https://github.com/Crowd9/Benchmark/raw/master/fio-$FIO_VERSION.tar.gz
-require_download IOPing $IOPING_DIR https://ioping.googlecode.com/files/ioping-$IOPING_VERSION.tar.gz
+require_download IOPing $IOPING_DIR https://github.com/Crowd9/Benchmark/raw/master/ioping-$IOPING_VERSION.tar.gz
 require_download UnixBench $UNIX_BENCH_DIR https://github.com/Crowd9/Benchmark/raw/master/UnixBench$UNIX_BENCH_VERSION-patched.tgz
 mv -f UnixBench $UNIX_BENCH_DIR 2>/dev/null
 
@@ -234,7 +234,6 @@ download_benchmark 'OVH, Paris, France' 'http://proof.ovh.net/files/100Mio.dat'
 download_benchmark 'SmartDC, Rotterdam, Netherlands' 'http://mirror.i3d.net/100mb.bin'
 download_benchmark 'Hetzner, Nuernberg, Germany' 'http://hetzner.de/100MB.iso'
 download_benchmark 'iiNet, Perth, WA, Australia' 'http://ftp.iinet.net.au/test100MB.dat'
-download_benchmark 'MammothVPS, Sydney, Australia' 'http://www.mammothvpscustomer.com/test100MB.dat'
 download_benchmark 'Leaseweb, Haarlem, NL' 'http://mirror.nl.leaseweb.net/speedtest/100mb.bin'
 download_benchmark 'Leaseweb, Manassas, VA, USA' 'http://mirror.us.leaseweb.net/speedtest/100mb.bin'
 download_benchmark 'Softlayer, Singapore' 'http://speedtest.sng01.softlayer.com/downloads/test100.zip'
